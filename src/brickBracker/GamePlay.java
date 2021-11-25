@@ -22,8 +22,8 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener {
 
     private int ballposX = 120;
     private int ballposY = 350;
-    private int ballXdir = -2;
-    private int ballYdir = -3;
+    private int ballXdir = -1;
+    private int ballYdir = -2;
 
     private MapGenerator map;
 
@@ -165,8 +165,8 @@ public class GamePlay extends JPanel implements KeyListener, ActionListener {
                 play = true;
                 ballposX = 120;
                 ballposY = 350;
-                ballXdir = -2;
-                ballYdir = -3;
+                ballXdir = -1;
+                ballYdir = -2;
                 playerX = 310;
                 score = 0;
                 totalBricks = 21;
